@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="第一次提交" />
+    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="第2次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +29,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,7 +50,10 @@
       <option name="presentableId" value="Default" />
       <updated>1678711224889</updated>
       <workItem from="1678711226944" duration="292000" />
-      <workItem from="1678711525592" duration="1114000" />
+      <workItem from="1678711525592" duration="2146000" />
+      <workItem from="1678952492428" duration="240000" />
+      <workItem from="1678969340075" duration="425000" />
+      <workItem from="1679018454469" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1678711702489</created>
@@ -59,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678712870734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次提交">
+      <created>1678713258060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678713258060</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第2次提交">
+      <created>1678713306914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678713306914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +102,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="第2次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第2次提交" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

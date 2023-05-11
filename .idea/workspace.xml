@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="第一次">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/AssignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/NonoverlappingInrervals.java" afterDir="false" />
+    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="20230406">
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CheckPossibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/FindMinArrowShots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/MaxArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/PartitionLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ReconstructQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +59,61 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NonoverlappingInrervals">
-    <configuration name="AssignCookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.AssignCookies" />
+  <component name="RunManager" selected="Application.CheckPossibility">
+    <configuration name="CheckPossibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.CheckPossibility" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.Candy" />
+    <configuration name="FindMinArrowShots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.FindMinArrowShots" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonoverlappingInrervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.NonoverlappingInrervals" />
+    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.MaxArea" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.MaxProfit" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ReconstructQueue" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -87,9 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NonoverlappingInrervals" />
-        <item itemvalue="Application.AssignCookies" />
-        <item itemvalue="Application.Candy" />
+        <item itemvalue="Application.CheckPossibility" />
+        <item itemvalue="Application.MaxArea" />
+        <item itemvalue="Application.ReconstructQueue" />
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.FindMinArrowShots" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +157,14 @@
       <workItem from="1680517440512" duration="1511000" />
       <workItem from="1680573660079" duration="3272000" />
       <workItem from="1680610610955" duration="1171000" />
-      <workItem from="1680747392071" duration="1087000" />
+      <workItem from="1680747392071" duration="9821000" />
+      <workItem from="1680847136049" duration="6000" />
+      <workItem from="1681181056507" duration="3970000" />
+      <workItem from="1681970283076" duration="4000" />
+      <workItem from="1683285120467" duration="15000" />
+      <workItem from="1683285138388" duration="2000" />
+      <workItem from="1683285150321" duration="4434000" />
+      <workItem from="1683636330767" duration="9446000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1678711702489</created>
@@ -152,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679021350040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20230406">
+      <created>1680748510533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680748510533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +229,8 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第2次提交" />
     <MESSAGE value="第一次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次" />
+    <MESSAGE value="20230406" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230406" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

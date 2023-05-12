@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="20230406">
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CheckPossibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/FindMinArrowShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/PartitionLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ReconstructQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="20230511-mac">
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ArrayPairsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CanJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/LemonadeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +56,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheckPossibility">
-    <configuration name="CheckPossibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.CheckPossibility" />
+  <component name="RunManager" selected="Application.CanJump">
+    <configuration name="ArrayPairsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ArrayPairsum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinArrowShots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.FindMinArrowShots" />
+    <configuration name="CanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.CanJump" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.MaxArea" />
+    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.Jump" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.MaxProfit" />
+    <configuration name="LemonadeChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.LemonadeChange" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ReconstructQueue" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ValidPalindrome" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckPossibility" />
-        <item itemvalue="Application.MaxArea" />
-        <item itemvalue="Application.ReconstructQueue" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.FindMinArrowShots" />
+        <item itemvalue="Application.CanJump" />
+        <item itemvalue="Application.Jump" />
+        <item itemvalue="Application.LemonadeChange" />
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.ArrayPairsum" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +161,8 @@
       <workItem from="1683285120467" duration="15000" />
       <workItem from="1683285138388" duration="2000" />
       <workItem from="1683285150321" duration="4434000" />
-      <workItem from="1683636330767" duration="9446000" />
+      <workItem from="1683636330767" duration="17709000" />
+      <workItem from="1683868902814" duration="10423000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1678711702489</created>
@@ -208,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680748510533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20230511-mac">
+      <created>1683787987944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683787987944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +235,8 @@
     <MESSAGE value="第2次提交" />
     <MESSAGE value="第一次" />
     <MESSAGE value="20230406" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230406" />
+    <MESSAGE value="20230511-mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230511-mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,6 +245,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedyalgorithm/CanJump.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -11,31 +11,51 @@ public class CanJump {
         int[] nums = new int[]{2,0,0};
         System.out.println(canJump(nums));
     }
-
     public static boolean canJump(int[] nums) {
-        if(nums.length!=1&&nums[0]==0)
-            return false;
-        if (nums[0]==0&&nums.length==1)
-            return true;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0)
-                if (!judgeCanJump(nums, i))
-                    return false;
-        }
-        return true;
-    }
-
-    public static boolean judgeCanJump(int[] ints, int i) {
-        int maxIndex = 0;
-        for (int j = 0; j < i; j++) {
-            if (ints[i] > ints[maxIndex]) {
-                maxIndex = i;
+        int n = nums.length;
+        int rightmost = 0;
+        for (int i = 0; i < n; ++i) {
+            if (i <= rightmost) {
+                rightmost = Math.max(rightmost, i + nums[i]);
+                if (rightmost >= n - 1) {
+                    return true;
+                }
             }
-        }
-        for (int j = i - 1; j >= maxIndex && j < i; j--) {
-            if (j + ints[j] >= i + 1)
-                return true;
         }
         return false;
     }
+
+
+
+
+
+
+
+
+//    public static boolean canJump(int[] nums) {
+//        if(nums.length!=1&&nums[0]==0)
+//            return false;
+//        if (nums[0]==0&&nums.length==1)
+//            return true;
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] == 0)
+//                if (!judgeCanJump(nums, i))
+//                    return false;
+//        }
+//        return true;
+//    }
+//
+//    public static boolean judgeCanJump(int[] ints, int i) {
+//        int maxIndex = 0;
+//        for (int j = 0; j < i; j++) {
+//            if (ints[i] > ints[maxIndex]) {
+//                maxIndex = i;
+//            }
+//        }
+//        for (int j = i - 1; j >= maxIndex && j < i; j--) {
+//            if (j + ints[j] >= i + 1)
+//                return true;
+//        }
+//        return false;
+//    }
 }

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="20230511-mac">
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ArrayPairsum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/CanJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/LemonadeChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/ValidPalindrome.java" afterDir="false" />
+    <list default="true" id="67167744-aa08-4eb6-9dc4-6d0c8e12049a" name="Changes" comment="20230512-mac">
+      <change afterPath="$PROJECT_DIR$/src/greedyalgorithm/IncreasingTriplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greedyalgorithm/CanJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedyalgorithm/CanJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greedyalgorithm/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedyalgorithm/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CanJump">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="ArrayPairsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ArrayPairsum" />
       <module name="leetcode" />
@@ -124,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.CanJump" />
         <item itemvalue="Application.Jump" />
         <item itemvalue="Application.LemonadeChange" />
-        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ArrayPairsum" />
       </list>
     </recent_temporary>
@@ -162,7 +160,14 @@
       <workItem from="1683285138388" duration="2000" />
       <workItem from="1683285150321" duration="4434000" />
       <workItem from="1683636330767" duration="17709000" />
-      <workItem from="1683868902814" duration="10423000" />
+      <workItem from="1683868902814" duration="10754000" />
+      <workItem from="1684236503011" duration="2080000" />
+      <workItem from="1684325070152" duration="1841000" />
+      <workItem from="1684379613121" duration="1583000" />
+      <workItem from="1685243235324" duration="1804000" />
+      <workItem from="1687784031269" duration="2143000" />
+      <workItem from="1688951518388" duration="599000" />
+      <workItem from="1689334374286" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1678711702489</created>
@@ -213,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683787987944</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="20230512-mac">
+      <created>1683881587963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683881587964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +248,8 @@
     <MESSAGE value="第一次" />
     <MESSAGE value="20230406" />
     <MESSAGE value="20230511-mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230511-mac" />
+    <MESSAGE value="20230512-mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230512-mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,11 +258,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/greedyalgorithm/CanJump.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

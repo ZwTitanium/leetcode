@@ -17,6 +17,7 @@ public class ValidPalindrome {
         int low = 0;
         int high = s.length() - 1;
         while (low < high) {
+
             char c1 = s.charAt(low);
             char c2 = s.charAt(high);
             if (c1 == c2) {
